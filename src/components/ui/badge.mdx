@@ -1,0 +1,16 @@
+import { Canvas, Meta, Source } from "@storybook/blocks";
+
+import * as BadgeStories from "./badge.stories";
+
+<Meta of={BadgeStories} />
+
+# Badge
+
+A badge indicates stuff
+
+<Source of={BadgeStories.Default} />
+<Source of={BadgeStories.Clickable} />
+
+<Canvas of={BadgeStories.Default} />
+<Canvas of={BadgeStories.Secondary} />
+<Canvas of={BadgeStories.Clickable} />
